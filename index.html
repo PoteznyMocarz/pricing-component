@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+  <img class="top-bg" src="images/bg-top.svg" alt="">
+  <div class="header-container">
+  <h1 class="header">Our Pricing</h1>
+  <div class="toggle-container">
+    <span class="ann-price">Annually</span>
+    <button class="toggle-btn" id="toggleBtn">
+      <div class="toggle-circle" id="toggleCircle"></div>
+    </button>
+    <span class="month-price">Monthly</span>
+  </div>
+  </div>
+<div class="container-main">
+  <div class="plan" id="basicPlan">
+    <h2 class="plan-name">Basic</h2>
+    <div class="price-container">
+      <span class="dollar">&dollar;</span> <span id="basicPrice" class="price">19.99</span>
+    </div>
+    <span class="storage stuff">500 GB Storage</span>
+    <span class="users stuff">2 Users Allowed</span>
+    <span class="send-limit stuff">Send up to 3 GB</span>
+    <button class="side-btn">Learn More</button>
+  </div>
+
+  <div class="plan" id="proPlan">
+    <h2 class="plan-name" id="pro-name">Professional</h2>
+    <div class="price-container" id="priceProContainer">
+      <span class="dollar" id="dollarPro">&dollar;</span><span id="proPrice" class="price">24.99</span>
+    </div>
+    <span class="storage stuffP">1 TB Storage</span>
+    <span class="users stuffP">5 Users Allowed</span>
+    <span class="send-limit stuffP">Send up to 10 GB</span>
+    <button class="side-btn" id="proBtn">Learn More</button>
+  </div>
+
+  <div class="plan" id="masterPlan">
+    <h2 class="plan-name">Master</h2>
+    <div class="price-container">
+      <span class="dollar">&dollar;</span> 
+      <span id="masterPrice" class="price">39.99</span>
+    </div>
+    <span class="storage stuff">2 TB Storage</span>
+    <span class="users stuff">10 Users Allowed</span>
+    <span class="send-limit stuff">Send up to 20 GB</span>
+    <button class="side-btn">Learn More</button>
+  </div>
+</div>
+<img class="bot-bg" src="images/bg-bottom.svg" alt="">
+
+<script src="app.js"></script>
+</body>
+</html>
